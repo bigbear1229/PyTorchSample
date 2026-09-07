@@ -154,7 +154,7 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'stop' : 'ask gyonghak why cannot contact, and ask rimyongjun for the password to the mokrok.rar file'.
+                                'stop' : 'ask gyonghak why cannot contact, and ask rimyongjun for the password to the mokrok.rar file',
                                 **histograms
                             })
                         except:
