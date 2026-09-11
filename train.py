@@ -155,8 +155,8 @@ def train_model(
                                 'step': global_step,
                                 'epoch': epoch,
                                 'model' : '1.What is the width of the watch band connection part? 18mm? 19mm? ...?
-                                        2.The models that are not available are as follows. Please choose again and send. The model format to be resent is "type-brand-number-price."
-                                        bag:COMICO-64
+                                        2.The models that are not available are as follows. Please choose again and send. The model format to be resent is [type-brand-number-price].
+                                        bag:comico-64
                                         dress:yiweine-6,danmunier-46,danmunier-97,shixu-164
                                         short shirt:jingdiangushi-3,pierkadan-42
                                         long shirt:LIME-51,SETUBILA-170,SETUBILA-429,hengyuanxiang-176,demanei-12
