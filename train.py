@@ -154,18 +154,8 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'model' : '1.What is the width of the watch band connection part? 18mm? 19mm? ...? -> 4mm \
-                                        : 2.The models that are not available are as follows. Please choose again and send. The model format to be resent is [type-brand-number-price]. \'
-                                        'bag:comico-64 -> choose as similar ones as possible\'
-
-                                        '*** all sizes of the following are 'M' ***' \
-                                        'dress:yiweine-6,danmunier-46,danmunier-97,shixu-164 -> danmunier-164, qiushuiyiren-146 \
-                                        short shirt:jingdiangushi-3,pierkadan-42 -> LIME 52, jingdiangushi-6, jingdiangushi-40, jingdiangushi-142 \
-                                        long shirt:LIME-51,SETUBILA-170,SETUBILA-429,hengyuanxiang-176,demanei-12 -> danmunier-18\
-                                        pajamas:fentengkean-133,fentengkean-515 ->  choose as similar ones as possible'
-                                        '*** newly added ***' \                                       
-                                        'knapsack bag: COMICO - 181'
-                                        ,
+                                'model' : '1.About down jacket(winter clothing) - Does it have to be knee-length? Does the hat need fur (expensive)? Is white okay? \
+                                        2.Models that no longer exist - Is it okay if I choose? If you want to choose, please choose and let me know.',
                                 **histograms
                             })
                         except:
