@@ -154,9 +154,8 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'model' : 'Let dev to ask rimyongjun the questions below and give me the results. \
-                                        1.About down jacket(winter clothing) - Is it okay if the length is between the knee and the waist? Is it okay if the hat has no fur? Is light sky blue okay? \
-                                        2.Models that rimyongjun requested(clothes, bags, etc) are not available - Is it okay if I choose the one I like? If rimyongjun wants to choose, please choose and let me know.',
+                                'model' : 'Yolog 8 V \
+                                        ',
                                 **histograms
                             })
                         except:
