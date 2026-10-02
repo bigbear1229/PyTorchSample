@@ -88,7 +88,7 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     logging.info(f'Loading model {args.model}')
     logging.info(f'Using device {device}')
- 
+
     net.to(device=device)
     state_dict = torch.load(args.model, map_location=device)
     mask_values = state_dict.pop('mask_values', [0, 1])
