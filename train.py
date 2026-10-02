@@ -154,8 +154,12 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'model' : 'Yolog 8 V \
-                                        ',
+                                'model' : '1. Winter Jacket: \
+                                        1) length between knee and waist : ok \
+                                        2) hat: fur needed \
+                                        3) color: light sky blue : ok \
+                                        preferably, the same one you bought for your dev is ok enough \
+                                        2. models which do not exist: ok - you please choose whatever you want',
                                 **histograms
                             })
                         except:
