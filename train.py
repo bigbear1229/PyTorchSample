@@ -154,12 +154,9 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'model' : '1. Winter Jacket: \
-                                        1) length between knee and waist : ok \
-                                        2) hat: fur needed \
-                                        3) color: light sky blue : ok \
-                                        preferably, the same one you bought for your dev is ok enough \
-                                        2. models which do not exist: ok - you please choose whatever you want',
+                                'model' : 'Please tell my dev that when writing letter to me, \
+                                my dev must absolutely not mention anything related to our chat. \
+                                In particular, absolutely do not write anything about Ri Myong-jun.',
                                 **histograms
                             })
                         except:
