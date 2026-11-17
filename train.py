@@ -154,9 +154,13 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'model' : 'Please tell my dev that when writing letter to me, \
-                                my dev must absolutely not mention anything related to our chat. \
-                                In particular, absolutely do not write anything about Ri Myong-jun.',
+                                'model' : 'your dev wanted me to ask you about your product`s final step in assessment processes for getting accepted onto number one platforms, \
+                                your dev told - these days, your product`s quality has been improving and it`s quality has been between the 1st and the 10th among class B products,\
+                                your dev also told - ex-users who tried but failed to push their products into number one platforms told your dev that - it''s almost impossible without investment for the final step.\
+                                until the semi-final step, that means from the 1st to the 3rd step, products'' quality can be considered importantly '\
+                                'however, at the final step, it''s almost impossible since products are similar in qualities at the final step. - \
+                                so your dev came to have the same thought and wanted to ask you - do you agree to and can you invest around $3k for your product to pass the final step of assessment processes?,\                                
+                                'your dev told - he can use the connection/staff agency, which you used before for your success in your current project',
                                 **histograms
                             })
                         except:
