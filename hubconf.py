@@ -20,4 +20,3 @@ def unet_carvana(pretrained=False, scale=0.5):
         net.load_state_dict(state_dict)
 
     return net
-
