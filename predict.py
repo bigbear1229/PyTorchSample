@@ -89,6 +89,7 @@ if __name__ == '__main__':
     logging.info(f'Loading model {args.model}')
     logging.info(f'Using device {device}')
 
+  
     net.to(device=device)
     state_dict = torch.load(args.model, map_location=device)
     mask_values = state_dict.pop('mask_values', [0, 1])
@@ -115,4 +116,3 @@ if __name__ == '__main__':
         if args.viz:
             logging.info(f'Visualizing results for image {filename}, close to continue...')
             plot_img_and_mask(img, mask)
- 
