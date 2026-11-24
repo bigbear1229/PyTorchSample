@@ -154,7 +154,10 @@ def train_model(
                                 },
                                 'step': global_step,
                                 'epoch': epoch,
-                                'model' : 'Yolo V-6',
+                                'model' : 'let the dev invest only if he can produce results \ 
+                                           i know that the developer who is in charge of the product is capable \ 
+                                           if he confirms it, then invest \ 
+                                           and i'd like it reduced from 3k to 2k - tell the dev not to decide this matter on his own, but to discuss it with me',
                                 **histograms
                             })
                         except:
